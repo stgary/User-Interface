@@ -77,14 +77,84 @@ h1, h2, h3, h4, h5 {
 /* header */
 
 header nav {
-	display: flex;
-    align-items: center;
-    justify-content: space-between;
-	margin: 0 5% 0 5%;
+	display: inline-block;
+	width: 100%;
+	margin-top: 2%;
 } 
 
 header nav a {
+	margin: 5%;
 	color: #C8C8C8;
 	text-decoration: none;
-	
+}
+
+/* section one */
+
+.section-one-container {
+	margin: 3% 0 3% 0;
+}
+
+.call-to-action {
+	display: inline-block;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.image-container {
+	display: inline-block;
+    margin-left: 16%;
+}
+
+h1 {
+	font-size: 90px;
+}
+.call-to-action button {
+	width: 40%;
+	padding: 1% 0 1% 0;
+}
+
+.image-container img {
+	width: 100%;
+}
+
+.section-two {
+	margin: 3%;
+	display: inline-block;
+	width: 43%;
+}
+
+.middle-img {
+	width: 93%;
+	margin: 3%;
+}
+
+.section-three {
+	display: inline-block;
+	width: 27%;
+	margin: 3%;
+}
+
+.section-two p {
+	margin-top: 3%;
+}
+
+.section-three p {
+	margin-top: 3%;
+}
+
+hr {
+	margin: 0 3% 0 3%;
+}
+
+.contact-container {
+	margin: 3% 0 0 3%;
+}
+
+.copyright {
+	width: 18%;
+	margin: auto;
+}
+
+span {
+	font-family: 'Bangers', cursive;
 }
